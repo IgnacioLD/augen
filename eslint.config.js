@@ -116,6 +116,7 @@ export default [
         File: 'readonly',
         FormData: 'readonly',
         AudioContext: 'readonly',
+        Audio: 'readonly',
         setTimeout: 'readonly',
         clearTimeout: 'readonly',
         setInterval: 'readonly',
