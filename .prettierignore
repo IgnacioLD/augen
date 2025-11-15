@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+coverage
+
+# Generated files
+*.min.js
+*.min.css
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+*.tmp
+*.temp
+
+# Test outputs
+test-results
+playwright-report
+
+# Wrangler
+.wrangler
+.mf
+
+# Git
+.git

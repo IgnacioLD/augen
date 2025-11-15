@@ -3,20 +3,36 @@
   "version": "1.0.0-beta",
   "description": "AI-powered vision assistant for accessibility with voice interaction, three-mode UX, and multilingual support",
   "main": "index.html",
+  "type": "module",
   "scripts": {
-    "dev": "wrangler dev src/worker/worker.js",
-    "deploy": "wrangler deploy -e production",
-    "deploy:worker": "wrangler deploy src/worker/worker.js --name augen-api-prod --compatibility-date 2024-01-01",
+    "dev": "concurrently \"vite\" \"wrangler dev src/worker/index.ts\"",
+    "dev:frontend": "vite",
+    "dev:worker": "wrangler dev src/worker/index.ts",
+    "build": "tsc && vite build",
+    "build:worker": "wrangler deploy src/worker/index.ts --name augen-api-prod --compatibility-date 2024-01-01",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "type-check": "tsc --noEmit && tsc -p tsconfig.worker.json --noEmit",
+    "lint": "eslint src --ext .ts,.js",
+    "lint:fix": "eslint src --ext .ts,.js --fix",
+    "format": "prettier --write \"**/*.{ts,js,json,css,html,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,css,html,md}\"",
+    "deploy": "npm run build && npm run build:worker",
     "setup": "cp wrangler.toml.local wrangler.toml",
+    "prepare": "husky",
     "serve": "python3 -m http.server 8080",
-    "start": "npm run serve"
+    "start": "npm run dev"
   },
   "keywords": [
     "accessibility",
     "AI",
     "vision",
     "voice",
-    "multilingual", 
+    "multilingual",
     "assistive-technology",
     "screen-reader",
     "groq",
@@ -36,6 +52,36 @@
   },
   "homepage": "https://augen.ignacio.tech",
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vitest/coverage-v8": "^2.1.5",
+    "@vitest/ui": "^2.1.5",
+    "axe-core": "^4.10.2",
+    "axe-playwright": "^2.0.3",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "happy-dom": "^15.11.7",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "terser": "^5.37.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1",
+    "vitest": "^2.1.5",
     "wrangler": "^4.33.1"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,html,md}": [
+      "prettier --write"
+    ]
   }
 }

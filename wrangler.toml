@@ -1,16 +1,32 @@
 name = "augen-api"
-main = "src/worker/worker.js"
+main = "src/worker/index.ts"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
+
+# Durable Objects for rate limiting
+[[durable_objects.bindings]]
+name = "RATE_LIMITER"
+class_name = "RateLimiter"
+script_name = "augen-api"
 
 [env.production]
 name = "augen-api-prod"
-main = "src/worker/worker.js"
+main = "src/worker/index.ts"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
 
+[[env.production.durable_objects.bindings]]
+name = "RATE_LIMITER"
+class_name = "RateLimiter"
+script_name = "augen-api-prod"
+
 [env.development]
 name = "augen-api-dev"
-main = "src/worker/worker.js"
+main = "src/worker/index.ts"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
+
+[[env.development.durable_objects.bindings]]
+name = "RATE_LIMITER"
+class_name = "RateLimiter"
+script_name = "augen-api-dev"

@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2022",
+    "lib": ["ES2021"],
+    "types": ["@cloudflare/workers-types", "@types/node"],
+    "noEmit": true,
+    "moduleResolution": "bundler",
+
+    /* Remove DOM-specific settings */
+    "skipLibCheck": true,
+
+    /* Path Mapping for Worker */
+    "baseUrl": ".",
+    "paths": {
+      "@worker/*": ["src/worker/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  },
+  "include": ["src/worker/**/*", "src/shared/**/*"],
+  "exclude": ["node_modules", "dist", "src/frontend/**/*", "tests/**/*"]
+}

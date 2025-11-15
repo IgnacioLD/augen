@@ -151,11 +151,15 @@ build/
 dist/
 *.min.js
 *.min.css
+*.tsbuildinfo
+tsconfig.tsbuildinfo
 
-# Test files (if you add tests later)
+# Test files
 coverage/
 .nyc_output/
 test-results/
+playwright-report/
+playwright/.cache/
 
 # Documentation builds
 docs/build/
