@@ -1,0 +1,20 @@
+{
+  "ready": "Augen جاهز. انظر أو اسأل.",
+  "title": "Augen - مساعد الرؤية بالذكاء الاصطناعي",
+  "seeButton": "📷 انظر",
+  "askButton": "🎤 اسأل",
+  "settings": "الإعدادات",
+  "language": "اللغة",
+  "morseCode": "مورس",
+  "hapticFeedback": "اهتزاز",
+  "processing": "معالجة...",
+  "listening": "أستمع... تحدث الآن",
+  "processingAudio": "معالجة الصوت...",
+  "error": "خطأ. حاول مرة أخرى.",
+  "buttonAriaLabel": "التقاط صورة - نقرة واحدة للملخص، نقرة مزدوجة للوصف الكامل",
+  "imageCaptured": "تم التقاط الصورة\! اختر إجراء أدناه.",
+  "speechStopped": "توقف الكلام",
+  "readyNewChat": "جاهز للدردشة الجديدة",
+  "imageDescribeSuccess": "تم وصف الصورة بنجاح\!",
+  "voiceQuerySuccess": "تمت معالجة الاستعلام الصوتي بنجاح\!"
+}

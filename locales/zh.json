@@ -1,0 +1,20 @@
+{
+  "ready": "Augen就绪。看或问。",
+  "title": "Augen - AI视觉助手",
+  "seeButton": "📷 看",
+  "askButton": "🎤 问",
+  "settings": "设置",
+  "language": "语言",
+  "morseCode": "摩尔斯",
+  "hapticFeedback": "振动",
+  "processing": "处理中...",
+  "listening": "正在聆听... 现在说话",
+  "processingAudio": "处理音频中...",
+  "error": "错误。重试。",
+  "buttonAriaLabel": "拍照 - 单击获取摘要，双击获取完整描述",
+  "imageCaptured": "图像已捕获！请在下方选择操作。",
+  "speechStopped": "语音已停止",
+  "readyNewChat": "准备新聊天",
+  "imageDescribeSuccess": "图像描述成功！",
+  "voiceQuerySuccess": "语音查询处理成功！"
+}

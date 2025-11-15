@@ -1,0 +1,20 @@
+{
+  "ready": "Augen ready. SEE or ASK.",
+  "title": "Augen - AI Vision Assistant",
+  "seeButton": "📷 SEE",
+  "askButton": "🎤 ASK",
+  "settings": "Settings",
+  "language": "Language",
+  "morseCode": "Morse",
+  "hapticFeedback": "Vibration",
+  "processing": "Processing...",
+  "listening": "Listening... Speak now",
+  "processingAudio": "Processing audio...",
+  "error": "Error. Try again.",
+  "buttonAriaLabel": "Take picture - single tap for summary, double tap for full description",
+  "imageCaptured": "Image captured! Choose an action below.",
+  "speechStopped": "Speech stopped",
+  "readyNewChat": "Ready for new chat",
+  "imageDescribeSuccess": "Image described successfully!",
+  "voiceQuerySuccess": "Voice query processed successfully!"
+}

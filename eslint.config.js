@@ -92,6 +92,38 @@ export default [
     },
   },
 
+  // Frontend TypeScript files
+  {
+    files: ['src/frontend/**/*.ts', 'src/frontend/**/*.tsx'],
+    languageOptions: {
+      globals: {
+        // Browser globals
+        document: 'readonly',
+        window: 'readonly',
+        navigator: 'readonly',
+        localStorage: 'readonly',
+        sessionStorage: 'readonly',
+        fetch: 'readonly',
+        HTMLElement: 'readonly',
+        Element: 'readonly',
+        Event: 'readonly',
+        MediaRecorder: 'readonly',
+        speechSynthesis: 'readonly',
+        SpeechSynthesisUtterance: 'readonly',
+        FileReader: 'readonly',
+        Image: 'readonly',
+        Blob: 'readonly',
+        File: 'readonly',
+        FormData: 'readonly',
+        AudioContext: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        setInterval: 'readonly',
+        clearInterval: 'readonly',
+      },
+    },
+  },
+
   // JavaScript files configuration
   {
     files: ['**/*.js', '**/*.mjs'],

@@ -1,0 +1,20 @@
+{
+  "ready": "Augen listo. VER o PREGUNTA.",
+  "title": "Augen - Asistente de Visión IA",
+  "seeButton": "📷 VER",
+  "askButton": "🎤 PREGUNTA",
+  "settings": "Configuración",
+  "language": "Idioma",
+  "morseCode": "Morse",
+  "hapticFeedback": "Vibración",
+  "processing": "Procesando...",
+  "listening": "Escuchando... Habla ahora",
+  "processingAudio": "Procesando audio...",
+  "error": "Error. Reintente.",
+  "buttonAriaLabel": "Tomar foto - un toque para resumen, doble toque para descripción completa",
+  "imageCaptured": "Imagen capturada. Elige una acción abajo.",
+  "speechStopped": "Audio detenido",
+  "readyNewChat": "Listo para nueva conversación",
+  "imageDescribeSuccess": "¡Imagen descrita con éxito!",
+  "voiceQuerySuccess": "¡Consulta de voz procesada con éxito!"
+}

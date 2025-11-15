@@ -1,0 +1,20 @@
+{
+  "ready": "Augen तैयार। देखें या पूछें।",
+  "title": "Augen - AI दृश्य सहायक",
+  "seeButton": "📷 देखें",
+  "askButton": "🎤 पूछें",
+  "settings": "सेटिंग्स",
+  "language": "भाषा",
+  "morseCode": "मोर्स",
+  "hapticFeedback": "कंपन",
+  "processing": "प्रसंस्करण...",
+  "listening": "सुन रहा हूं... अब बोलें",
+  "processingAudio": "ऑडियो प्रसंस्करण...",
+  "error": "त्रुटि। पुनः प्रयास।",
+  "buttonAriaLabel": "फोटो लें - सारांश के लिए एक टैप, पूर्ण विवरण के लिए डबल टैप",
+  "imageCaptured": "छवि कैप्चर की गई\! नीचे एक क्रिया चुनें।",
+  "speechStopped": "भाषण रुक गया",
+  "readyNewChat": "नई चैट के लिए तैयार",
+  "imageDescribeSuccess": "छवि सफलतापूर्वक वर्णित\!",
+  "voiceQuerySuccess": "आवाज क्वेरी सफलतापूर्वक संसाधित\!"
+}

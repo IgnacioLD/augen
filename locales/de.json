@@ -1,0 +1,20 @@
+{
+  "ready": "Augen bereit. SEHEN oder FRAGE.",
+  "title": "Augen - KI-Seh-Assistent",
+  "seeButton": "📷 SEHEN",
+  "askButton": "🎤 FRAGE",
+  "settings": "Einstellungen",
+  "language": "Sprache",
+  "morseCode": "Morse",
+  "hapticFeedback": "Vibration",
+  "processing": "Verarbeitung...",
+  "listening": "Höre zu... Sprechen Sie jetzt",
+  "processingAudio": "Audio wird verarbeitet...",
+  "error": "Fehler. Wiederholen.",
+  "buttonAriaLabel": "Foto aufnehmen - ein Tipp für Zusammenfassung, Doppeltipp für vollständige Beschreibung",
+  "imageCaptured": "Bild aufgenommen! Wählen Sie unten eine Aktion.",
+  "speechStopped": "Sprache gestoppt",
+  "readyNewChat": "Bereit für neuen Chat",
+  "imageDescribeSuccess": "Bild erfolgreich beschrieben!",
+  "voiceQuerySuccess": "Sprachanfrage erfolgreich verarbeitet!"
+}

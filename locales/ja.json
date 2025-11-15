@@ -1,0 +1,20 @@
+{
+  "ready": "Augen準備完了。見るか聞く。",
+  "title": "Augen - AI視覚アシスタント",
+  "seeButton": "📷 見る",
+  "askButton": "🎤 聞く",
+  "settings": "設定",
+  "language": "言語",
+  "morseCode": "モールス",
+  "hapticFeedback": "振動",
+  "processing": "処理中...",
+  "listening": "聞いています... 今話してください",
+  "processingAudio": "音声処理中...",
+  "error": "エラー。再試行。",
+  "buttonAriaLabel": "写真を撮る - シングルタップで要約、ダブルタップで詳細説明",
+  "imageCaptured": "画像をキャプチャしました！下からアクションを選択してください。",
+  "speechStopped": "スピーチが停止されました",
+  "readyNewChat": "新しいチャットの準備ができました",
+  "imageDescribeSuccess": "画像の説明が成功しました！",
+  "voiceQuerySuccess": "音声クエリが正常に処理されました！"
+}

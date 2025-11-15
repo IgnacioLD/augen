@@ -1,0 +1,20 @@
+{
+  "ready": "Augen prêt. VOIR ou DEMANDE.",
+  "title": "Augen - Assistant Vision IA",
+  "seeButton": "📷 VOIR",
+  "askButton": "🎤 DEMANDE",
+  "settings": "Paramètres",
+  "language": "Langue",
+  "morseCode": "Morse",
+  "hapticFeedback": "Vibration",
+  "processing": "Traitement...",
+  "listening": "Écoute... Parlez maintenant",
+  "processingAudio": "Traitement audio...",
+  "error": "Erreur. Réessayez.",
+  "buttonAriaLabel": "Prendre photo - un appui pour résumé, double appui pour description complète",
+  "imageCaptured": "Image capturée! Choisissez une action ci-dessous.",
+  "speechStopped": "Discours arrêté",
+  "readyNewChat": "Prêt pour un nouveau chat",
+  "imageDescribeSuccess": "Image décrite avec succès!",
+  "voiceQuerySuccess": "Requête vocale traitée avec succès!"
+}
